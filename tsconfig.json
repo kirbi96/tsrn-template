@@ -5,7 +5,8 @@
     "module": "es6",
     "moduleResolution": "node",
     "target": "es6",
-    "jsx": "react"
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
   },
   "exclude": [
     "node_modules",

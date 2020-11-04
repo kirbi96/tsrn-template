@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {SafeAreaView, ScrollView, Text, StatusBar} from 'react-native';
+import Home from "./screens/Main/Home/Home";
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView contentInsetAdjustmentBehavior="automatic">
-          <Text>Step One</Text>
+         <Home/>
         </ScrollView>
       </SafeAreaView>
     </>
