@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {SafeAreaView, ScrollView, Text, StatusBar} from 'react-native';
+import {SafeAreaView, ScrollView, StatusBar} from 'react-native';
 import Home from "./screens/Main/Home/Home";
 
 const App = () => {
